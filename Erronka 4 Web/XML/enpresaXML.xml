@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<enpresak  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="enpresa.xsd">
+   <!-- Langileak 1-->
+    <langileak>
+    <langilea idlang="1"></langilea>
+        <izena>Jon Ander</izena>
+        <abizena> Manso</abizena>
+        <jaiotzeUrtea>2005/12/10</jaiotzeUrtea>
+        <helbidea >
+        <posta_kodea>48480</posta_kodea>
+        <kalea>uribarri 2</kalea>
+        <herria>Uribarri</herria>
+        <probintzia>Bizkaia</probintzia>
+        </helbidea>
+       <epostak>
+        <emailaPer>jon@gmail.com</emailaPer>
+        <Lanemaila>jon@elorrietamusic.com</Lanemaila>
+        </epostak>
+        <telefonoa>
+        <etxekoMugi>944204097</etxekoMugi>
+        <LanMugi>684359853</LanMugi>
+        </telefonoa>
+        <ardura idard="1"></ardura>
+        <KontratazioData>2023/07/24</KontratazioData>
+        <soldata>25000</soldata>
+         <departamentua idDep="5"></departamentua>
+</langileak>
+   <!-- Langileak 2-->
+<langileak>
+    <langilea idLang="2"></langilea>
+        <izena>Ibai</izena>
+        <abizena> Martinez</abizena>
+        <jaiotzeUrtea>2005/04/15</jaiotzeUrtea>
+        <helbidea >
+        <herria>Sestao</herria>
+        <kalea>urigoiti 12</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>48910</posta_kodea>
+        </helbidea>
+        <epostak>
+        <emailaPer>ibai@gmail.com</emailaPer>
+        <Lanemaila>ibai@elorrietamusic.com</Lanemaila>
+        </epostak>
+        <telefonoa>
+        <etxekoMugi>944254597</etxekoMugi>
+        <LanMugi>674345853</LanMugi>
+        </telefonoa>
+        <ardura idard="3"></ardura>
+        <KontratazioData>2023/08/24</KontratazioData>
+        <soldata>2750</soldata>
+        <departamentua idDep="6"></departamentua>
+</langileak>
+
+<langileak>
+    <langilea idLang="3"></langilea>
+        <izena>Jon</izena>
+        <abizena> Olanda</abizena>
+        <jaiotzeUrtea>2005/07/18</jaiotzeUrtea>
+        <helbidea >
+        <herria>Orozko</herria>
+        <kalea>Urigoiti 2</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>48410</posta_kodea>
+        </helbidea>
+        <epostak>
+        <emailaPer>olanda@gmail.com</emailaPer>
+        <Lanemaila>olanda@elorrietamusic.com</Lanemaila>
+        </epostak>
+        <telefonoa>
+        <etxekoMugi>944154567</etxekoMugi>
+        <LanMugi>664345853</LanMugi>
+        </telefonoa>
+        <ardura idard="2"></ardura>
+        <KontratazioData>2023/05/21</KontratazioData>
+        <soldata>2750</soldata>
+        <departamentua idDep="7"></departamentua>
+</langileak>
+
+   <!-- DepartamentuaK-->
+  <departamentuak>
+            <departamentua idDep="5"></departamentua>
+            <izena>MDA</izena>
+             <deskribapena>datuak administratzea </deskribapena>
+            <burua>1</burua>
+  </departamentuak>
+  
+  <departamentuak>
+            <departamentua idDep="6"></departamentua>
+            <izena>Estrategia eta Teknologia</izena>
+           <deskribapena>enpresan estrategietatik eta teknologiarekin lan egitea </deskribapena>
+          <burua> 2</burua>
+  </departamentuak>
+  
+  
+    <departamentuak>
+            <departamentua idDep="7"></departamentua>
+            <izena>Lege-Saila</izena>
+           <deskribapena>enpresan lege partetatik arduraduna da </deskribapena>
+          <burua > 3</burua>
+  </departamentuak>
+  
+    <departamentuak>
+            <departamentua idDep="8"></departamentua>
+            <izena>Salmentak</izena>
+           <deskribapena>Enpresan egiten diren salmentak kudeatu beharko ditu </deskribapena>
+          <burua > 4</burua>
+  </departamentuak>
+  
+     <!-- Ardurak-->
+  <ardurak>
+  <ardura idard="1"></ardura>
+  <izena>administratzailea</izena>
+  </ardurak>
+  
+   <ardurak>
+  <ardura idard="2"></ardura>
+  <izena>Estrategia eta Teknologia</izena>
+  </ardurak>
+  
+    
+   <ardurak>
+  <ardura idard="4"></ardura>
+  <izena>Lege-Saila</izena>
+  </ardurak>
+</enpresak>
