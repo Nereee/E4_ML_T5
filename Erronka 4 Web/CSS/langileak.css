@@ -1,0 +1,37 @@
+
+ #langileak-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .langileak-group {
+    display: flex;
+    flex-wrap: wrap; 
+    width: calc(50% - 10px); 
+  }
+
+  .langile-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(50% - 10px); 
+    display: flex; 
+    align-items: center; 
+  }
+  .langilea_img {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+
+  @media screen and (max-width: 1050px) {
+    .langileak-group {
+      width: 100%;
+    }
+    .langile-info {
+      width: 100%;
+    }
+  }

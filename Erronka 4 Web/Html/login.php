@@ -1,40 +1,22 @@
 <?php
 session_start();
-if(isset($_POST['izena']) && $_POST ['pasahitza']){
-	
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "db_zinema";
 
-// Konexioa sortu
-$mysqli = new mysqli($servername, $username, $password, $db);
+if(isset($_POST['izena']) && $_POST['pasahitza']){
+    $servername = 'localhost';
+    $username = $_POST["izena"];
+    $password = $_POST["pasahitza"];
+    $db = "db_spotify5";
 
-// Konexioa egiaztatu
-if ($mysqli->connect_error) {
-  die("Connection failed: " . $mysqli->connect_error);
-}
+    // Konexioa sortu
+    $mysqli = new mysqli("localhost","bezero","bezPass ",$db);
 
-//Kontsulta
+    // Konexioa egiaztatu
+    if ($mysqli->connect_error) {
 
-$izena = $_POST["izena"];
-$pwd = $_POST["pasahitza"]; 
-
-
-
-
-$kontsulta = "select izena from erabiltzaile where izena = '$izena' and pasahitza = '$pwd'";
-$result = $mysqli->query($kontsulta);
-
-if($result->num_rows > 0){
-    header("Location: tiketa.php");
-}else{
-    $var = "Erabiltzaile hau ez da existitzen";
-    echo "<script> alert('".$var."'); </script>";
-}
-
-// Konexioa itxi
-$mysqli->close();
+    } else {
+        header("Location: main.html");
+        exit(); 
+    }
 }
 ?>
 
@@ -42,9 +24,9 @@ $mysqli->close();
 <html lang="eu">
 
 <head>
-    <title>Elorrieta zinema - Erreserbak</title>
+    <title>Elorrietamusic - WEBGUNEA</title>
     <meta charset="UTF-8">
-    <meta name="author" content="1.taldea">
+    <meta name="author" content="5.taldea">
     <meta name="keywords" content="Login, Login egitea">
     <meta name="description" content="login egiteko gunea">
     <meta name="viewport" content="width=device-width, initial-scale=1">
