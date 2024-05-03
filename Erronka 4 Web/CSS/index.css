@@ -13,7 +13,7 @@ main {
     width: 40vw;
     border: 3px solid rgba(0, 0, 0, 0.233);
     text-align: justify;
-    box-shadow: 20px 20px 20px rgba(30, 109, 199, 0.945);
+    box-shadow: 20px 20px 20px rgba(255, 255, 255, 0.945);
     /* Kutxari itzala ipintzen diogu */
     backdrop-filter: blur(20px);
     border: solid white;

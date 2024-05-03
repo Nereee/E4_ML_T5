@@ -2,17 +2,17 @@
 session_start();
 
 if(isset($_POST['izena']) && $_POST['pasahitza']){
-    $servername = 'localhost';
+    $servername = '127.0.0.1';
     $username = $_POST["izena"];
     $password = $_POST["pasahitza"];
     $db = "db_spotify5";
 
     // Konexioa sortu
-    $mysqli = new mysqli("localhost","bezero","bezPass ",$db);
+    $mysqli = new mysqli("127.0.0.1",$username,$password,$db);
 
     // Konexioa egiaztatu
     if ($mysqli->connect_error) {
-
+        echo "Error en la conexión: ";
     } else {
         header("Location: main.html");
         exit(); 
@@ -38,9 +38,10 @@ if(isset($_POST['izena']) && $_POST['pasahitza']){
 
 <body>
     <!-- Headerra eta bere nav barruan kategoriekin -->
+    <h3><img src="../IMG/logoT5.png" alt="ElorrietaZinema logo" class="logo"></h3>
     <nav id="menua">
+        
         <ul>
-            <li><img src="../IMG/logo1.png" alt="ElorrietaZinema logo"></li>
             <li><a href="../index.html">EXIT</a></li>
         </ul>
     </nav>

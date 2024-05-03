@@ -22,16 +22,13 @@
         <nav id="menua">
           <ul>
             <li>
-              <a href="main.html">Home</a>
-            </li>
-            <li>
-              <a href="langileak.php">Langileak</a>
+              <a href="main.html">Hasiera</a>
             </li>
             <li>
               <a href="departamentua.php">Departamenduak</a>
             </li>
             <li>
-              <a href="login.php">Login</a>
+              <a href="langileak.php">Langileak</a>
             </li>
           </ul>
         </nav>
@@ -46,6 +43,22 @@
           </div>
         </main>
       </body>
+      <footer>
+        <div id="footertext">
+          <p>
+            Agirre Lehendakariaren Etorb., 184
+            48015 - Bilbo
+            Autobusa: 70,46.
+            Metroa: San Ignazio, Asturias irteera <br />
+            Telefonoa: 944 02 80 00 <br />
+            Email: elorrietamusic@gmail.com
+          </p>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/" target="_blank"><img class="szicon" src="../IMG/instagram_icon_146245.png" alt="Instagram logo" /></a>
+          <a href="https://twitter.com/?lang=es" target="_blank"><img class="szicon" src="../IMG/X.jpg" alt="X logo" /></a>
+        </div>
+      </footer>
     </html>
   </xsl:template>
   

@@ -39,6 +39,8 @@ ul {
     padding: 0;
 }
 
+
+
 /* Estilo para cada elemento de la lista */
 li {
     margin-bottom: 15px;
@@ -75,4 +77,14 @@ input[type="submit"] {
 /* Estilo para el botón de submit al pasar el ratón por encima */
 input[type="submit"]:hover {
     background-color: #2980b9;
+}
+
+.logo-kontainer {
+    margin-right: auto; 
+}
+
+.logo {
+    width: 80px; 
+    height: auto; 
+    font-size: 20px;
 }

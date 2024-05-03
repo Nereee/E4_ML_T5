@@ -8,8 +8,7 @@
         <meta charset="UTF-8" />
         <meta name="keywords" content="ElorrietaMusic, musika, podcast, playlist" />
         <meta name="author" content="FloppyClub" />
-        <meta name="description"
-          content="ElorrietaMusic webgunea. Hurrengo HTMLa FloppyClub egin du." />
+        <meta name="description" content="ElorrietaMusic webgunea. Hurrengo HTMLa FloppyClub egin du." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="../CSS/style.css" />
         <link rel="stylesheet" href="../CSS/main.css" />
@@ -23,7 +22,7 @@
         <nav id="menua">
           <ul>
             <li>
-              <a href="main.html">Home</a>
+              <a href="main.html">Hasiera</a>
             </li>
             <li>
               <a href="langileak.php">Langileak</a>
@@ -31,13 +30,9 @@
             <li>
               <a href="departamentua.php">Departamenduak</a>
             </li>
-            <li>
-              <a href="login.php">Login</a>
-            </li>
           </ul>
         </nav>
         <main>
-          
           <div id="langileak-container">
             <div class="langileak-group">
               <xsl:apply-templates select="langileak/langilea[position() &lt;= 4]" />
@@ -48,6 +43,23 @@
           </div>
         </main>
       </body>
+      <!-- Footer -->
+      <footer>
+        <div id="footertext">
+          <p>
+            Agirre Lehendakariaren Etorb., 184
+            48015 - Bilbo
+            Autobusa: 70,46.
+            Metroa: San Ignazio, Asturias irteera <br />
+            Telefonoa: 944 02 80 00 <br />
+            Email: elorrietamusic@gmail.com
+          </p>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/" target="_blank"><img class="szicon" src="../IMG/instagram_icon_146245.png" alt="Instagram logo" /></a>
+          <a href="https://twitter.com/?lang=es" target="_blank"><img class="szicon" src="../IMG/X.jpg" alt="X logo" /></a>
+        </div>
+      </footer>
     </html>
   </xsl:template>
   <xsl:template match="langilea">
@@ -66,7 +78,12 @@
         <strong>Helbidea:</strong>
         <xsl:value-of select="helbidea/herria" />
         <br />
+        <strong>Ardura:</strong>
+        <xsl:apply-templates select="//ardurak/ardura[@idard = current()/ardura/@idard]" />
       </p>
     </div>
+  </xsl:template>
+  <xsl:template match="ardura">
+      <xsl:value-of select="izena" />
   </xsl:template>
 </xsl:stylesheet>

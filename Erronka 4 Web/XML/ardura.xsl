@@ -16,20 +16,12 @@
    <main>
       <!--DEPARTAMENDUA TAULA -->
       <h2>Ardurak</h2>
-        <table border="1">
-        <thead>
-        <tr>
-        <th>ardura</th>
-        <th>izena</th>
-         </tr>
-         </thead>
-            <xsl:for-each select="departamentuak">
+            <xsl:for-each select="ardurak/ardura">
             <tr>
             <td><xsl:value-of select="ardura"/></td>
             <td><xsl:value-of select="izena"/></td>
             </tr>
           </xsl:for-each>
-        </table>
       </main>
 </body>
 </html>
