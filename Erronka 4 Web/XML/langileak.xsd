@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="enpresak">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="langileak" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="langilea" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="izena" type="xs:string"/>
+                    <xs:element name="abizena" type="xs:string"/>
+                    <xs:element name="jaiotzeUrtea" type="xs:string"/>
+                    <xs:element name="helbidea">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="posta_kodea" type="xs:string"/>
+                          <xs:element name="kalea" type="xs:string"/>
+                          <xs:element name="herria" type="xs:string"/>
+                          <xs:element name="probintzia" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="epostak">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="emailaPer" type="xs:string"/>
+                          <xs:element name="Lanemaila" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="telefonoa">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="etxekoMugi" type="xs:string"/>
+                          <xs:element name="LanMugi" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ardura" type="xs:string"/>
+                    <xs:element name="argazkia" type="xs:string"/>
+                    <xs:element name="KontratazioData" type="xs:string"/>
+                    <xs:element name="soldata" type="xs:decimal"/>
+                    <xs:element name="departamentua" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="idLang" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="departamentuak">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="departamentua" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="izena" type="xs:string"/>
+                    <xs:element name="mugikorra" type="xs:string"/>
+                    <xs:element name="e-posta" type="xs:string"/>
+                    <xs:element name="deskribapena" type="xs:string"/>
+                    <xs:element name="burua" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="idDep" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ardurak">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ardura" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="izena" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="idard" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

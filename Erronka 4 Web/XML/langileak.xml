@@ -22,7 +22,7 @@
         <LanMugi>684359853</LanMugi>
       </telefonoa>
       <ardura idard="2"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/07/24</KontratazioData>
       <soldata>25000</soldata>
       <departamentua idDep="LS"></departamentua>
@@ -48,10 +48,10 @@
         <LanMugi>674345853</LanMugi>
       </telefonoa>
       <ardura idard="1"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/08/24</KontratazioData>
       <soldata>2750</soldata>
-      <departamentua idDep="EET"></departamentua>
+      <departamentua idDep="LS"></departamentua>
     </langilea>
 
 
@@ -74,7 +74,7 @@
         <LanMugi>664345853</LanMugi>
       </telefonoa>
       <ardura idard="1"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/05/21</KontratazioData>
       <soldata>2750</soldata>
       <departamentua idDep="IT"></departamentua>
@@ -103,7 +103,7 @@
         <LanMugi>665345853</LanMugi>
       </telefonoa>
       <ardura idard="1"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/05/21</KontratazioData>
       <soldata>2750</soldata>
       <departamentua idDep="GB"></departamentua>
@@ -132,7 +132,7 @@
         <LanMugi>666345853</LanMugi>
       </telefonoa>
       <ardura idard="1"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/05/21</KontratazioData>
       <soldata>2700</soldata>
       <departamentua idDep="MR"></departamentua>
@@ -160,7 +160,7 @@
         <LanMugi>666346065</LanMugi>
       </telefonoa>
       <ardura idard="3"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1750</soldata>
       <departamentua idDep="ZUO"></departamentua>
@@ -169,7 +169,7 @@
     <!--Langileak
     7 -->
 
-    <langilea idLang="6">
+    <langilea idLang="7">
       <izena>Hector</izena>
       <abizena> Martinezez</abizena>
       <jaiotzeUrtea>2004/06/25</jaiotzeUrtea>
@@ -188,16 +188,15 @@
         <LanMugi>666345055</LanMugi>
       </telefonoa>
       <ardura idard="3"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="FIN"></departamentua>
     </langilea>
 
-    <!--Langileak
-    8-->
+    <!--Langileak 8-->
 
-    <langilea idLang="6">
+    <langilea idLang="8">
       <izena>Paolo</izena>
       <abizena> Banchero</abizena>
       <jaiotzeUrtea>2002/11/12</jaiotzeUrtea>
@@ -213,16 +212,220 @@
       </epostak>
       <telefonoa>
         <etxekoMugi>944204567</etxekoMugi>
-        <LanMugi>6676025</LanMugi>
+        <LanMugi>667602588</LanMugi>
       </telefonoa>
       <ardura idard="2"></ardura>
-      <argazkia></argazkia>
+      <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="SAL"></departamentua>
     </langilea>
-  </langileak>
 
+
+    <!--Langileak 9-->
+  <langilea idLang="9">
+    <izena>Donovan</izena>
+    <abizena> Mitchel</abizena>
+    <jaiotzeUrtea>2002/11/12</jaiotzeUrtea>
+    <helbidea>
+      <herria>Seattle</herria>
+      <kalea>Los angeles kalea</kalea>
+      <probintzia></probintzia>
+      <posta_kodea>21213</posta_kodea>
+    </helbidea>
+    <epostak>
+      <emailaPer>dvnmitchel@gmail.com</emailaPer>
+      <Lanemaila>dnvmitchel@elorrietamusic.com</Lanemaila>
+    </epostak>
+    <telefonoa>
+      <etxekoMugi>944254567</etxekoMugi>
+      <LanMugi>667602559</LanMugi>
+    </telefonoa>
+    <ardura idard="3"></ardura>
+    <argazkia>../../IMG/Langilea.png</argazkia>
+    <KontratazioData>2023/07/21</KontratazioData>
+    <soldata>1500</soldata>
+    <departamentua idDep="LS"></departamentua>
+  </langilea>
+
+
+    <!--Langileak 10-->
+    <langilea idLang="10">
+      <izena>Mikel</izena>
+      <abizena> Martin</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Erandio</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>mkmartin@gmail.com</emailaPer>
+        <Lanemaila>mkmartin@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="EET"></departamentua>
+    </langilea>
+    <!--Langileak 11-->
+    <langilea idLang="11">
+      <izena>Andoni</izena>
+      <abizena> salsidua JR</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Algorta</herria>
+        <kalea>Algorta 20</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>andosalsiduajr@gmail.com</emailaPer>
+        <Lanemaila>andonisalsiduajr@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="GB"></departamentua>
+    </langilea>
+    <!--Langileak 12-->
+    <langilea idLang="12">
+      <izena>Fabio</izena>
+      <abizena>Luciano</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Galicia</herria>
+        <kalea>salmocente 12</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>kirito@gmail.com</emailaPer>
+        <Lanemaila>kiritowork@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="EET"></departamentua>
+    </langilea>
+    <!--Langileak 13-->
+    <langilea idLang="13">
+      <izena>Ricardo</izena>
+      <abizena> Quaresma</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>colombia</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Boyaca</probintzia>
+        <posta_kodea>30340</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>kenjy@gmail.com</emailaPer>
+        <Lanemaila>kenjyiniwork@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="IT"></departamentua>
+    </langilea>
+    <!--Langileak 14-->
+    <langilea idLang="14">
+      <izena>Xabier</izena>
+      <abizena>Martinez</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Valencia</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Comunidad Valentziana</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>xabier@gmail.com</emailaPer>
+        <Lanemaila>xabierwork@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="EET"></departamentua>
+    </langilea>
+    <!--Langileak 15-->
+    <langilea idLang="15">
+      <izena>Jose</izena>
+      <abizena>Platita</abizena>
+      <jaiotzeUrtea>2011/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Valencia</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>joseanalista@gmail.com</emailaPer>
+        <Lanemaila>mamajose@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="MR"></departamentua>
+    </langilea>
+
+   <!--Langileak 16-->
+   <langilea idLang="16">
+    <izena>Jose</izena>
+    <abizena>Platita</abizena>
+    <jaiotzeUrtea>2011/08/09</jaiotzeUrtea>
+    <helbidea>
+      <herria>Valencia</herria>
+      <kalea>kalea 13</kalea>
+      <probintzia>Bizkaia</probintzia>
+      <posta_kodea>21213</posta_kodea>
+    </helbidea>
+    <epostak>
+      <emailaPer>joseanalista@gmail.com</emailaPer>
+      <Lanemaila>mamajose@elorrietamusic.com</Lanemaila>
+    </epostak>
+    <telefonoa>
+      <etxekoMugi>944254567</etxekoMugi>
+      <LanMugi>667602559</LanMugi>
+    </telefonoa>
+    <ardura idard="2"></ardura>
+    <argazkia>../../IMG/Langilea.png</argazkia>
+    <KontratazioData>2023/07/21</KontratazioData>
+    <soldata>1500</soldata>
+    <departamentua idDep="MR"></departamentua>
+  </langilea>
+</langileak>
   <!--DEPARTAMENTUA-->
   <departamentuak>
     <departamentua idDep="LS">

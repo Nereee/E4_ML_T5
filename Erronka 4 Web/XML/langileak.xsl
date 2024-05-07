@@ -34,13 +34,10 @@
         </nav>
         <main>
           <div id="langileak-container">
-            <div class="langileak-group">
-              <xsl:apply-templates select="langileak/langilea[position() &lt;= 4]" />
-            </div>
-            <div class="langileak-group">
-              <xsl:apply-templates select="langileak/langilea[position() &gt; 4]" />
-            </div>
+            <xsl:apply-templates select="langileak/langilea[position() &lt;= 8]" mode="group1" />
+            <xsl:apply-templates select="langileak/langilea[position() &gt; 8]" mode="group2" />
           </div>
+         
         </main>
       </body>
       <!-- Footer -->
@@ -62,7 +59,9 @@
       </footer>
     </html>
   </xsl:template>
-  <xsl:template match="langilea">
+
+  <!--Horrela irudikatuta dago 16 langileak banatu ahal izateko css ezberdinekin horretarako bi talde sortu dira group eta groupb-->
+  <xsl:template match="langilea" mode="group1">
     <div class="langile-info">
       <img src="../IMG/Langilea.png" alt="Langilearen Argazkia" class="langilea_img" />
       <p>
@@ -83,7 +82,29 @@
       </p>
     </div>
   </xsl:template>
-  <xsl:template match="ardura">
-      <xsl:value-of select="izena" />
-  </xsl:template>
+    <xsl:template match="langilea" mode="group2">
+      <div class="langile-info">
+        <img src="../IMG/Langilea.png" alt="Langilearen Argazkia" class="langilea_img" />
+        <p>
+          <strong>Izena:</strong>
+          <xsl:value-of select="izena" />
+          <br />
+          <strong>Abizena:</strong>
+          <xsl:value-of select="abizena" />
+          <br />
+          <strong>Jaiotze Urtea:</strong>
+          <xsl:value-of select="jaiotzeUrtea" />
+          <br />
+          <strong>Helbidea:</strong>
+          <xsl:value-of select="helbidea/herria" />
+          <br />
+          <strong>Ardura:</strong>
+          <xsl:apply-templates select="//ardurak/ardura[@idard = current()/ardura/@idard]" />
+        </p>
+      </div>
+<!--hemen langile bakoitzeko ardurak ateratzen gaude-->
+</xsl:template>
+      <xsl:template match="ardura">
+          <xsl:value-of select="izena" />
+      </xsl:template>
 </xsl:stylesheet>
