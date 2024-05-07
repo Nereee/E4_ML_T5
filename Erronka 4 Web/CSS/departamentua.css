@@ -1,0 +1,49 @@
+
+#departamentuak-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 20px; 
+    box-sizing: border-box; 
+  }
+  
+  
+  .departamentuak-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    justify-content: space-around; 
+    margin-bottom: 20px; 
+  }
+  
+ 
+  .departamentuak_info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px; 
+    width: calc(50% - 20px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .departamentuak_info h3 {
+    color: white;
+  }
+  
+ 
+  .departamentua_img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px; 
+  }
+  
+
+  @media screen and (max-width: 1050px) {
+    .departamentuak_info {
+      width: calc(100% - 20px); 
+    }
+  }
+  

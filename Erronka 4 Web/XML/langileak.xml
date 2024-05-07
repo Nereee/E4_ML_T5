@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="departamentua.xsl"?>
+<enpresak>
+  <!-- Langileak 1-->
+  <langileak>
+    <langilea idlang="1">
+      <izena>Jon Ander</izena>
+      <abizena> Manso</abizena>
+      <jaiotzeUrtea>2005/12/10</jaiotzeUrtea>
+      <helbidea>
+        <posta_kodea>48480</posta_kodea>
+        <kalea>uribarri 2</kalea>
+        <herria>Uribarri</herria>
+        <probintzia>Bizkaia</probintzia>
+      </helbidea>
+      <epostak>
+        <emailaPer>jon@gmail.com</emailaPer>
+        <Lanemaila>jon@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944204097</etxekoMugi>
+        <LanMugi>684359853</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/24</KontratazioData>
+      <soldata>25000</soldata>
+      <departamentua idDep="LS"></departamentua>
+    </langilea>
+    <!-- Langileak 2-->
+
+    <langilea idLang="2">
+      <izena>Ibai</izena>
+      <abizena> Martinez</abizena>
+      <jaiotzeUrtea>2005/04/15</jaiotzeUrtea>
+      <helbidea>
+        <herria>Sestao</herria>
+        <kalea>urigoiti 12</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>48910</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>ibai@gmail.com</emailaPer>
+        <Lanemaila>ibai@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254597</etxekoMugi>
+        <LanMugi>674345853</LanMugi>
+      </telefonoa>
+      <ardura idard="1"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/08/24</KontratazioData>
+      <soldata>2750</soldata>
+      <departamentua idDep="LS"></departamentua>
+    </langilea>
+
+
+    <langilea idLang="3">
+      <izena>Jon</izena>
+      <abizena> Olanda</abizena>
+      <jaiotzeUrtea>2005/07/18</jaiotzeUrtea>
+      <helbidea>
+        <herria>Orozko</herria>
+        <kalea>Urigoiti 2</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>48410</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>olanda@gmail.com</emailaPer>
+        <Lanemaila>olanda@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944154567</etxekoMugi>
+        <LanMugi>664345853</LanMugi>
+      </telefonoa>
+      <ardura idard="1"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/05/21</KontratazioData>
+      <soldata>2750</soldata>
+      <departamentua idDep="IT"></departamentua>
+    </langilea>
+
+
+    <!--Langileak
+    4 -->
+
+    <langilea idLang="4">
+      <izena>Jon</izena>
+      <abizena> Marco</abizena>
+      <jaiotzeUrtea>2005/07/18</jaiotzeUrtea>
+      <helbidea>
+        <herria>Orozko</herria>
+        <kalea>Urigoiti 2</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>48410</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>jonmarc@gmail.com</emailaPer>
+        <Lanemaila>jonmarc@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944204567</etxekoMugi>
+        <LanMugi>665345853</LanMugi>
+      </telefonoa>
+      <ardura idard="1"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/05/21</KontratazioData>
+      <soldata>2750</soldata>
+      <departamentua idDep="GB"></departamentua>
+    </langilea>
+
+
+    <!--Langileak
+    5 -->
+
+    <langilea idLang="5">
+      <izena>Andoni</izena>
+      <abizena> Salsidua</abizena>
+      <jaiotzeUrtea>2003/09/21</jaiotzeUrtea>
+      <helbidea>
+        <herria>Orozko</herria>
+        <kalea>Urigoiti 2</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>48410</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>ansalsi@gmail.com</emailaPer>
+        <Lanemaila>ansalsi@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944205069</etxekoMugi>
+        <LanMugi>666345853</LanMugi>
+      </telefonoa>
+      <ardura idard="1"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/05/21</KontratazioData>
+      <soldata>2700</soldata>
+      <departamentua idDep="MR"></departamentua>
+    </langilea>
+
+    <!--Langileak
+    6 -->
+
+    <langilea idLang="6">
+      <izena>Aitor</izena>
+      <abizena> Salsidua</abizena>
+      <jaiotzeUrtea>2004/10/10</jaiotzeUrtea>
+      <helbidea>
+        <herria>Santa Marina</herria>
+        <kalea>santa kalea 12</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>48580</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>aitsal@gmail.com</emailaPer>
+        <Lanemaila>aitsal@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944256549</etxekoMugi>
+        <LanMugi>666346065</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1750</soldata>
+      <departamentua idDep="ZUO"></departamentua>
+    </langilea>
+
+    <!--Langileak
+    7 -->
+
+    <langilea idLang="7">
+      <izena>Hector</izena>
+      <abizena> Martinezez</abizena>
+      <jaiotzeUrtea>2004/06/25</jaiotzeUrtea>
+      <helbidea>
+        <herria>Leioa</herria>
+        <kalea>mazarron 12 kalea</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>49490</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>hectmart@gmail.com</emailaPer>
+        <Lanemaila>hectmart@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944253545</etxekoMugi>
+        <LanMugi>666345055</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="FIN"></departamentua>
+    </langilea>
+
+    <!--Langileak 8-->
+
+    <langilea idLang="8">
+      <izena>Paolo</izena>
+      <abizena> Banchero</abizena>
+      <jaiotzeUrtea>2002/11/12</jaiotzeUrtea>
+      <helbidea>
+        <herria>Seattle</herria>
+        <kalea>Magic kalea</kalea>
+        <probintzia></probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>plbanchero@gmail.com</emailaPer>
+        <Lanemaila>plbanchero@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944204567</etxekoMugi>
+        <LanMugi>667602588</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="SAL"></departamentua>
+    </langilea>
+
+
+    <!--Langileak 9-->
+  <langilea idLang="9">
+    <izena>Donovan</izena>
+    <abizena> Mitchel</abizena>
+    <jaiotzeUrtea>2002/11/12</jaiotzeUrtea>
+    <helbidea>
+      <herria>Seattle</herria>
+      <kalea>Los angeles kalea</kalea>
+      <probintzia></probintzia>
+      <posta_kodea>21213</posta_kodea>
+    </helbidea>
+    <epostak>
+      <emailaPer>dvnmitchel@gmail.com</emailaPer>
+      <Lanemaila>dnvmitchel@elorrietamusic.com</Lanemaila>
+    </epostak>
+    <telefonoa>
+      <etxekoMugi>944254567</etxekoMugi>
+      <LanMugi>667602559</LanMugi>
+    </telefonoa>
+    <ardura idard="3"></ardura>
+    <argazkia>../../IMG/Langilea.png</argazkia>
+    <KontratazioData>2023/07/21</KontratazioData>
+    <soldata>1500</soldata>
+    <departamentua idDep="LS"></departamentua>
+  </langilea>
+
+
+    <!--Langileak 10-->
+    <langilea idLang="10">
+      <izena>Mikel</izena>
+      <abizena> Martin</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Erandio</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>mkmartin@gmail.com</emailaPer>
+        <Lanemaila>mkmartin@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="EET"></departamentua>
+    </langilea>
+    <!--Langileak 11-->
+    <langilea idLang="11">
+      <izena>Andoni</izena>
+      <abizena> salsidua JR</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Algorta</herria>
+        <kalea>Algorta 20</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>andosalsiduajr@gmail.com</emailaPer>
+        <Lanemaila>andonisalsiduajr@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="GB"></departamentua>
+    </langilea>
+    <!--Langileak 12-->
+    <langilea idLang="12">
+      <izena>Fabio</izena>
+      <abizena>Luciano</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Galicia</herria>
+        <kalea>salmocente 12</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>kirito@gmail.com</emailaPer>
+        <Lanemaila>kiritowork@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="EET"></departamentua>
+    </langilea>
+    <!--Langileak 13-->
+    <langilea idLang="13">
+      <izena>Ricardo</izena>
+      <abizena> Quaresma</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>colombia</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Boyaca</probintzia>
+        <posta_kodea>30340</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>kenjy@gmail.com</emailaPer>
+        <Lanemaila>kenjyiniwork@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="IT"></departamentua>
+    </langilea>
+    <!--Langileak 14-->
+    <langilea idLang="14">
+      <izena>Xabier</izena>
+      <abizena>Martinez</abizena>
+      <jaiotzeUrtea>2003/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Valencia</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Comunidad Valentziana</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>xabier@gmail.com</emailaPer>
+        <Lanemaila>xabierwork@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="EET"></departamentua>
+    </langilea>
+    <!--Langileak 15-->
+    <langilea idLang="15">
+      <izena>Jose</izena>
+      <abizena>Platita</abizena>
+      <jaiotzeUrtea>2011/08/09</jaiotzeUrtea>
+      <helbidea>
+        <herria>Valencia</herria>
+        <kalea>kalea 13</kalea>
+        <probintzia>Bizkaia</probintzia>
+        <posta_kodea>21213</posta_kodea>
+      </helbidea>
+      <epostak>
+        <emailaPer>joseanalista@gmail.com</emailaPer>
+        <Lanemaila>mamajose@elorrietamusic.com</Lanemaila>
+      </epostak>
+      <telefonoa>
+        <etxekoMugi>944254567</etxekoMugi>
+        <LanMugi>667602559</LanMugi>
+      </telefonoa>
+      <ardura idard="2"></ardura>
+      <argazkia>../../IMG/Langilea.png</argazkia>
+      <KontratazioData>2023/07/21</KontratazioData>
+      <soldata>1500</soldata>
+      <departamentua idDep="MR"></departamentua>
+    </langilea>
+
+   <!--Langileak 16-->
+   <langilea idLang="16">
+    <izena>Jose</izena>
+    <abizena>Platita</abizena>
+    <jaiotzeUrtea>2011/08/09</jaiotzeUrtea>
+    <helbidea>
+      <herria>Valencia</herria>
+      <kalea>kalea 13</kalea>
+      <probintzia>Bizkaia</probintzia>
+      <posta_kodea>21213</posta_kodea>
+    </helbidea>
+    <epostak>
+      <emailaPer>joseanalista@gmail.com</emailaPer>
+      <Lanemaila>mamajose@elorrietamusic.com</Lanemaila>
+    </epostak>
+    <telefonoa>
+      <etxekoMugi>944254567</etxekoMugi>
+      <LanMugi>667602559</LanMugi>
+    </telefonoa>
+    <ardura idard="2"></ardura>
+    <argazkia>../../IMG/Langilea.png</argazkia>
+    <KontratazioData>2023/07/21</KontratazioData>
+    <soldata>1500</soldata>
+    <departamentua idDep="MR"></departamentua>
+  </langilea>
+</langileak>
+  <!--DEPARTAMENTUA-->
+  <departamentuak>
+    <departamentua idDep="LS">
+      <izena>Lege sailak</izena>
+      <mugikorra>944193520</mugikorra>
+      <e-posta>ls@elorrietamusic.com</e-posta>
+      <deskribapena>Enpresarekin zerikusia duten gai legalei edo juridikoei buruzko guztia hartzen
+        duen enpresaren banaketa da.
+        Arauak egiteaz arduratzen da, gatazka, auzi, irizpen eta negozioen aurrean legezko
+        ordezkaritza egiteaz.
+      </deskribapena>
+      <burua>1</burua>
+    </departamentua>
+
+
+    <departamentua idDep="EET">
+      <izena>Estrategia eta Teknologia</izena>
+      <mugikorra>944194020</mugikorra>
+      <e-posta>est@elorrietamusic.com</e-posta>
+      <deskribapena>Haren eginkizun nagusia da erakundearen estrategia 
+        teknologikoa gainbegiratzea eta teknologia 
+        enpresa-helburuetarako gaitzailea dela ziurtatzea.
+
+      </deskribapena>
+      <burua> 2</burua>
+    </departamentua>
+
+
+    <departamentua idDep="IT">
+      <izena>IT</izena>
+      <mugikorra>944195020</mugikorra>
+      <e-posta>it@elorrietamusic.com</e-posta>
+      <deskribapena>Sistema informatiko eta teknologikoak sortu eta kudeatzeaz arduratzen den
+        enpresa baten arloa edo saila da.</deskribapena>
+      <burua> 3</burua>
+    </departamentua>
+
+
+    <departamentua idDep="GB">
+      <izena>Giza Baliabideak</izena>
+      <mugikorra>944204020</mugikorra>
+      <e-posta>gizab@elorrietamusic.com</e-posta>
+      <deskribapena>enpresetan lan egiten duten pertsonekin zerikusia duen guztia kudeatzen duen
+        saila.Horren barruan sartzen dira
+        erreklutamendua, hautaketa, kontratazioa, onboarding edo ongietorria, prestakuntza,
+        sustapena, nominak eta kaleratzeak.
+      </deskribapena>
+      <burua>4</burua>
+    </departamentua>
+
+
+    <departamentua idDep="MR">
+      <izena>Marketing</izena>
+      <mugikorra>944205020</mugikorra>
+      <e-posta>marketing@elorrietamusic.com</e-posta>
+      <deskribapena>produktu, zerbitzu edo marka baten balioaren komunikazioa sortzeko eta
+        publikoaren segmentu jakin batera bideratzeko arduraduna.</deskribapena>
+      <burua>5</burua>
+    </departamentua>
+
+
+    <departamentua idDep="ZUO">
+      <izena>Zuzendaritza Orokorra</izena>
+      <mugikorra>944206020</mugikorra>
+      <e-posta>zuzendariorokorra@elorrietamusic.com</e-posta>
+      <deskribapena>
+        Zuzendari orokorra zuzendu eta zuzentzen ditu estrategia eta helburu korporatiboak, horiek
+        gauzatzeko behar diren baliabideak definitzen ditu,
+        funtsezko erabakiak hartzen ditu eta negozioaren eta merkatuaren dibisioen ikuspegi orokorra
+        du.
+      </deskribapena>
+      <burua>6</burua>
+    </departamentua>
+
+    <departamentua idDep="FIN">
+      <izena>Finantzak</izena>
+      <mugikorra>944256520</mugikorra>
+      <e-posta>finantzak@elorrietamusic.com</e-posta>
+      <deskribapena>Finantzak planifikatu, antolatu, zuzendu eta kontrolatzeaz arduratzen da,enpresak eraginkortasunez jarduteko bere finantza-betebeharrak betetzeko eta errentagarritasuna maximizatzeko behar den likidezia izan dezan.
+      </deskribapena>
+      <burua>7</burua>
+    </departamentua>
+
+
+    <departamentua idDep="SAL">
+      <izena>salmentak</izena>
+      <mugikorra>944257020</mugikorra>
+      <e-posta>salmentak@elorrietamusic.com</e-posta>
+      <deskribapena>Salmenta-saila enpresa baten produktuak eta zerbitzuak merkaturatzeaz arduratzen den arloa da. 
+      Lead-ak erakarri, elikatu eta bezero bihurtzea du helburu. Hori lortutakoan, bezeroen atxikipenean inbertitzera pasatzen dira.
+      </deskribapena>
+      <burua>8</burua>
+    </departamentua>
+  </departamentuak>
+
+  <!-- Ardurak-->
+  <ardurak>
+    <ardura idard="1">
+      <izena>Analistak</izena>
+    </ardura>
+
+
+    <ardura idard="2">
+      <izena>Zuzendaria</izena>
+    </ardura>
+
+
+    <ardura idard="3">
+      <izena>Langileak</izena>
+    </ardura>
+  </ardurak>
+
+</enpresak>

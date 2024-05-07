@@ -1,19 +1,20 @@
-/* Reset de estilos para eliminar márgenes y padding predeterminados */
+
+/* Estilo-reset bat marjinak eta padding lehenetsiak ezabatzeko */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Estilo básico para el cuerpo del formulario */
+/* Formularioaren gorputzerako oinarrizko estiloa */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f8f8;
 }
 
-/* Estilo para el contenedor del formulario de inicio de sesión */
+/* Saio-hasierako formularioko edukiontzirako estiloa */
 form {
-    width: 60%; /* Ajusta el ancho según tus preferencias */
-    max-width: 400px; /* Establece un ancho máximo */
+    width: 60%; /* Doitu zabalera zure lehentasunen arabera */
+    max-width: 400px; /* Gehieneko zabalera ezartzen du */
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
@@ -26,31 +27,33 @@ form {
     transform: translate(-50%, -70%);
 }
 
-/* Estilo para el título del formulario */
+/* Formularioko titulurako estiloa */
 .caption {
     font-size: 1.5em;
     margin-bottom: 20px;
 }
 
-/* Estilo para la lista no ordenada */
+/* Ordenatu gabeko zerrendarako estiloa */
 ul {
     list-style: none;
     padding: 0;
 }
 
-/* Estilo para cada elemento de la lista */
+
+
+/* Zerrendako elementu bakoitzerako estiloa */
 li {
     margin-bottom: 15px;
 }
 
-/* Estilo para las etiquetas de los campos */
+/* Eremuetako etiketetarako estiloa */
 label {
     display: block;
     font-weight: bold;
     margin-bottom: 10   px;
 }
 
-/* Estilo para los campos de entrada de texto y contraseña */
+/* Testua eta pasahitza sartzeko eremuetarako estiloa */
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -59,7 +62,7 @@ input[type="password"] {
     border-radius: 5px;
 }
 
-/* Estilo para el botón de submit */
+/* Submit botoirako estiloa */
 input[type="submit"] {
     background-color: #3498db;
     color: #fff;
@@ -71,7 +74,17 @@ input[type="submit"] {
     transition: background-color 0.3s ease-in-out;
 }
 
-/* Estilo para el botón de submit al pasar el ratón por encima */
+/* Submit botoirako estiloa, sagua gainetik pasatzean */
 input[type="submit"]:hover {
     background-color: #2980b9;
+}
+
+.logo-kontainer {
+    margin-right: auto; 
+}
+
+.logo {
+    width: 80px; 
+    height: auto; 
+    font-size: 20px;
 }
