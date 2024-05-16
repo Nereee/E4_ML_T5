@@ -21,11 +21,13 @@
   align-items: center;
 }
 
+
 .langilea_img {
   width: 100px; 
   height: auto; 
   margin-right: 10px;
 }
+
 
 @media screen and (max-width: 1050px) {
   .langileak-group,

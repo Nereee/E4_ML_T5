@@ -47,7 +47,7 @@
         <etxekoMugi>944254597</etxekoMugi>
         <LanMugi>674345853</LanMugi>
       </telefonoa>
-      <ardura idard="1"></ardura>
+      <ardura idard="2"></ardura>
       <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/08/24</KontratazioData>
       <soldata>2750</soldata>
@@ -73,7 +73,7 @@
         <etxekoMugi>944154567</etxekoMugi>
         <LanMugi>664345853</LanMugi>
       </telefonoa>
-      <ardura idard="1"></ardura>
+      <ardura idard="2"></ardura>
       <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/05/21</KontratazioData>
       <soldata>2750</soldata>
@@ -214,7 +214,7 @@
         <etxekoMugi>944204567</etxekoMugi>
         <LanMugi>667602588</LanMugi>
       </telefonoa>
-      <ardura idard="2"></ardura>
+      <ardura idard="1"></ardura>
       <argazkia>../../IMG/Langilea.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
@@ -268,8 +268,8 @@
         <etxekoMugi>944254567</etxekoMugi>
         <LanMugi>667602559</LanMugi>
       </telefonoa>
-      <ardura idard="2"></ardura>
-      <argazkia>../../IMG/Langilea.png</argazkia>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/langile2.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="EET"></departamentua>
@@ -294,7 +294,7 @@
         <LanMugi>667602559</LanMugi>
       </telefonoa>
       <ardura idard="3"></ardura>
-      <argazkia>../../IMG/Langilea.png</argazkia>
+      <argazkia>../../IMG/langile2.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="GB"></departamentua>
@@ -319,7 +319,7 @@
         <LanMugi>667602559</LanMugi>
       </telefonoa>
       <ardura idard="3"></ardura>
-      <argazkia>../../IMG/Langilea.png</argazkia>
+      <argazkia>../../IMG/langile2.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="EET"></departamentua>
@@ -343,8 +343,8 @@
         <etxekoMugi>944254567</etxekoMugi>
         <LanMugi>667602559</LanMugi>
       </telefonoa>
-      <ardura idard="2"></ardura>
-      <argazkia>../../IMG/Langilea.png</argazkia>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/langile2.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="IT"></departamentua>
@@ -369,7 +369,7 @@
         <LanMugi>667602559</LanMugi>
       </telefonoa>
       <ardura idard="3"></ardura>
-      <argazkia>../../IMG/Langilea.png</argazkia>
+      <argazkia>../../IMG/langile2.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="EET"></departamentua>
@@ -393,8 +393,8 @@
         <etxekoMugi>944254567</etxekoMugi>
         <LanMugi>667602559</LanMugi>
       </telefonoa>
-      <ardura idard="2"></ardura>
-      <argazkia>../../IMG/Langilea.png</argazkia>
+      <ardura idard="3"></ardura>
+      <argazkia>../../IMG/langile2.png</argazkia>
       <KontratazioData>2023/07/21</KontratazioData>
       <soldata>1500</soldata>
       <departamentua idDep="MR"></departamentua>
@@ -402,30 +402,31 @@
 
    <!--Langileak 16-->
    <langilea idLang="16">
-    <izena>Jose</izena>
-    <abizena>Platita</abizena>
-    <jaiotzeUrtea>2011/08/09</jaiotzeUrtea>
+    <izena>Tanio</izena>
+    <abizena>Kirito</abizena>
+    <jaiotzeUrtea>2005/07/09</jaiotzeUrtea>
     <helbidea>
-      <herria>Valencia</herria>
+      <herria>Bartzelona</herria>
       <kalea>kalea 13</kalea>
-      <probintzia>Bizkaia</probintzia>
-      <posta_kodea>21213</posta_kodea>
+      <probintzia>Katalunia</probintzia>
+      <posta_kodea>08002</posta_kodea>
     </helbidea>
     <epostak>
-      <emailaPer>joseanalista@gmail.com</emailaPer>
-      <Lanemaila>mamajose@elorrietamusic.com</Lanemaila>
+      <emailaPer>tanio@gmail.com</emailaPer>
+      <Lanemaila>taniowork@elorrietamusic.com</Lanemaila>
     </epostak>
     <telefonoa>
-      <etxekoMugi>944254567</etxekoMugi>
-      <LanMugi>667602559</LanMugi>
+      <etxekoMugi>944204567</etxekoMugi>
+      <LanMugi>667602609</LanMugi>
     </telefonoa>
-    <ardura idard="2"></ardura>
-    <argazkia>../../IMG/Langilea.png</argazkia>
-    <KontratazioData>2023/07/21</KontratazioData>
-    <soldata>1500</soldata>
-    <departamentua idDep="MR"></departamentua>
+    <ardura idard="3"></ardura>
+    <argazkia>../../IMG/langile2.png</argazkia>
+    <KontratazioData>2023/08/21</KontratazioData>
+    <soldata>1750</soldata>
+    <departamentua idDep="LS"></departamentua>
   </langilea>
 </langileak>
+
   <!--DEPARTAMENTUA-->
   <departamentuak>
     <departamentua idDep="LS">
@@ -448,7 +449,6 @@
       <deskribapena>Haren eginkizun nagusia da erakundearen estrategia 
         teknologikoa gainbegiratzea eta teknologia 
         enpresa-helburuetarako gaitzailea dela ziurtatzea.
-
       </deskribapena>
       <burua> 2</burua>
     </departamentua>

@@ -30,8 +30,8 @@ if(isset($_POST['izena']) && $_POST['pasahitza']){
     <meta name="keywords" content="Login, Login egitea">
     <meta name="description" content="login egiteko gunea">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href = "../Css/style.css">
-    <link rel = "stylesheet" href = "../Css/loginstyle.css">
+    <link rel="stylesheet" href = "../CSS/style.css">
+    <link rel = "stylesheet" href = "../CSS/loginstyle.css">
     <!-- Nunito letra mota -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
 </head>

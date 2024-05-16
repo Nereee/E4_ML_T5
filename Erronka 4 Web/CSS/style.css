@@ -8,7 +8,8 @@
 }
 
 body{
-     background-image: url(../IMG/habitacion-vacia-fondo-abstracto-degradado-verde-espacio-texto-e-imagen_1258-117938.png);
+     /*background-image: url(../IMG/fondoPrincipal.PNG);*/
+     background-color: black;
     /* flex ipini dugu body-n barruan dauden elementuek
      * moldagarriak izateko */
     display: flex;
@@ -45,25 +46,6 @@ main{
     margin: 0px;
 }
 
-#menua li {
-    flex-wrap: wrap;
-}
-
-#menua ul li {
-    flex-grow: 1;
-    text-align: center;
-    padding: 7px;
-}
-#menua ul li a:hover {
-    text-decoration: underline;
-    color: aqua;
-}
-
-#menua ul li a {
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-}
 
 .langile-info {
     border: 1px solid #ccc;

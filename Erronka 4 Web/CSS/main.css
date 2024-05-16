@@ -2,50 +2,88 @@
 main {
     flex-grow: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 5vh;
+    padding: 20px;
     /* COLUMN erabiltzen dugu */
 }
-
-#deskriptzioa {
-    width: 40vw;
-    border: 3px solid rgba(0, 0, 0, 0.233);
-    text-align: justify;
-    box-shadow: 20px 20px 20px rgba(255, 255, 255, 0.945);
-    /* Kutxari itzala ipintzen diogu */
-    backdrop-filter: blur(20px);
-    border: solid white;
-    /* Borrosoa agertzeko */
-
+#menua{
+    background-color: gray;
 }
-#deskriptzioa p {
-    padding: 40px;
-    font-size: 18px;
+#menua li {
+    flex-wrap: wrap;
 }
 
-/* "GEHIEN IKUSITA" ESTILOAK */
-#deskriptzioa h2 {
+#menua ul li {
+    flex-grow: 1;
+    text-align: center;
+    padding: 7px;
+    
+}
+#menua ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#menua ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* "GEHIEN ENTZUNDA" ESTILOAK */
+ #topmusic h2 {
     text-align: center;
     padding: 15px;
-
+}
+#abestirudi {
+    max-width: 80%;
+    padding: 20px; /* Ajusta el espaciado de los lados para que no se vea demasiado ajustado en pantallas grandes */
 }
 
-/* balio hauekin, weba bertikalki ondo ikus daiteke */
-@media screen and (max-width: 840px) {
-    #deskriptzioa {
-        width: fit-content;
-        width: 420px;
-    }
-    #deskriptzioa p {
-        font-size: 16px;
-    }
-    #gehienikusita ul {
-        flex-direction: column;
-    }
+#abestirudi h2 {
+    text-align: center;
+    padding: 10px;
+}
 
-    #alien, #lebowski, #dollar, #handia {
-        width: 175px;
+#gehienentzundaGeneroa {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flujo a columnas */
+    align-items: center; /* Centra horizontalmente los elementos */
+    text-align: center; /* Centra el texto */
+}
+
+#gehienentzundaGeneroa h3 {
+    display: none; /* Oculta el texto "Gehien Entzunda" para pantallas grandes */
+}
+
+#gehienentzundaGeneroa ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en una nueva línea si no hay suficiente espacio horizontal */
+}
+
+#gehienentzundaGeneroa li {
+    flex: 1; /* Hace que cada elemento ocupe el mismo espacio dentro del contenedor */
+    margin: 0 5px; /* Agrega un pequeño margen entre las imágenes */
+}
+
+#gehienentzundaGeneroa img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita que las imágenes tengan espacio adicional debajo */
+}
+
+/* Estilos para pantallas pequeñas (menos de 600px de ancho, por ejemplo) */
+@media screen and (max-width: 800px) {
+    #gehienentzundaGeneroa h3 {
+        display: block; /* Muestra el texto "Gehien Entzunda" para pantallas pequeñas */
+    }
+    #gehienentzundaGeneroa ul {
+        flex-direction: column; /* Cambia la dirección del flujo a columnas */
+        align-items: center; /* Centra horizontalmente los elementos */
     }
 }
