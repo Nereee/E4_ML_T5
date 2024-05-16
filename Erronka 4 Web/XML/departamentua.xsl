@@ -7,15 +7,12 @@
         <title>Elorrieta zinema | Home</title>
         <meta charset="UTF-8" />
         <meta name="keywords" content="ElorrietaMusic, musika, podcast, playlist" />
-        <meta name="author" content="FloppyClub" />
-        <meta name="description" content="ElorrietaMusic webgunea. Hurrengo HTMLa FloppyClub egin du." />
+        <meta name="author" content="ElorrietaMusic Taldea"/>
+        <meta name="description" content="ElorrietaMusic. Hurrengo HTMLa T5 taldea egin du."/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="../CSS/style.css" />
         <link rel="stylesheet" href="../CSS/main.css" />
         <link rel="stylesheet" href="../CSS/departamentua.css"/>
-        <style>
-          /* Aquí va el CSS para los departamentos */
-        </style>
       </head>
       <body>
         <!-- Headerra eta bere nav barruan kategoriekin -->
@@ -25,21 +22,18 @@
               <a href="main.html">Hasiera</a>
             </li>
             <li>
-              <a href="departamentua.php">Departamenduak</a>
+              <a href="langileak.php">Langileak</a>
             </li>
             <li>
-              <a href="langileak.php">Langileak</a>
+              <a href="departamentua.php">Departamenduak</a>
             </li>
           </ul>
         </nav>
         <main>
+          <!--Div etan banatu dugu departamentuak ordenean jarri ahal izateko-->
           <div id="departamentuak-container">
-            <div class="departamentuak-group">
-              <xsl:apply-templates select="departamentuak[position() &lt;= 4]" />
-            </div>
-            <div class="departamentuak-group">
-              <xsl:apply-templates select="departamentuak[position() &gt; 4]" />
-            </div>
+              <xsl:apply-templates select="departamentuak/departamentua[position() &lt;= 4]" mode="group1" />
+              <xsl:apply-templates select="departamentuak/departamentua[position() &gt; 4] " mode="group2" />
           </div>
         </main>
       </body>
@@ -62,9 +56,24 @@
     </html>
   </xsl:template>
   
-  <xsl:template match="departamentua">
+  <xsl:template match="departamentua" mode="group1">
     <div class="departamentuak_info">
       <img src="../IMG/departamento.png" alt="Departamentu Argazkia" class="departamentua_img" />
+      <h3><xsl:value-of select="izena" /></h3>
+      <p>
+        <strong>Mugikorra:</strong> 
+        <xsl:value-of select="mugikorra" /><br />
+        <strong>E-posta:</strong> 
+        <xsl:value-of select="e-posta" /><br />
+        <strong>Deskribapena:</strong> 
+        <xsl:value-of select="deskribapena" /><br />
+      </p>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="departamentua" mode="group2">
+    <div class="departamentuak_info">
+      <img src="../IMG/departamento2.png" alt="Departamentu Argazkia" class="departamentua_img" />
       <h3><xsl:value-of select="izena" /></h3>
       <p>
         <strong>Mugikorra:</strong> 

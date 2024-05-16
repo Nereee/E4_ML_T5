@@ -7,8 +7,8 @@
         <title>Elorrieta zinema | Home</title>
         <meta charset="UTF-8" />
         <meta name="keywords" content="ElorrietaMusic, musika, podcast, playlist" />
-        <meta name="author" content="FloppyClub" />
-        <meta name="description" content="ElorrietaMusic webgunea. Hurrengo HTMLa FloppyClub egin du." />
+        <meta name="author" content="ElorrietaMusic Taldea" />
+        <meta name="description" content="ElorrietaMusic. Hurrengo HTMLa T5 taldea egin du."/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="../CSS/style.css" />
         <link rel="stylesheet" href="../CSS/main.css" />
@@ -84,7 +84,7 @@
   </xsl:template>
     <xsl:template match="langilea" mode="group2">
       <div class="langile-info">
-        <img src="../IMG/Langilea.png" alt="Langilearen Argazkia" class="langilea_img" />
+        <img src="../IMG/langile2.png" alt="Langilearen Argazkia" class="langilea_img" />
         <p>
           <strong>Izena:</strong>
           <xsl:value-of select="izena" />

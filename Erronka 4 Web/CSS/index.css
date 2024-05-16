@@ -8,7 +8,29 @@ main {
     margin-bottom: 5vh;
     /* COLUMN erabiltzen dugu */
 }
+#menua{
+    background-color: gray;
+}
+#menua li {
+    flex-wrap: wrap;
+}
 
+#menua ul li {
+    flex-grow: 1;
+    text-align: center;
+    padding: 7px;
+    
+}
+#menua ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#menua ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
 #deskriptzioa {
     width: 40vw;
     border: 3px solid rgba(0, 0, 0, 0.233);
@@ -18,76 +40,67 @@ main {
     backdrop-filter: blur(20px);
     border: solid white;
     /* Borrosoa agertzeko */
-
 }
 #deskriptzioa p {
     padding: 40px;
     font-size: 18px;
 }
 
-/* "GEHIEN IKUSITA" ESTILOAK */
+/* "GEHIEN ENTZUNDA" ESTILOAK */
 #deskriptzioa h2 {
     text-align: center;
-    padding: 15px;
-
+    padding: 20px;
+  
 }
-#pelirudi h2 {
-    margin-top: 6vh;
-    padding-bottom: 25px;
+
+#abestirudi {
+    max-width: 80%;
+    padding: 20px; /* Ajusta el espaciado de los lados para que no se vea demasiado ajustado en pantallas grandes */
+}
+
+#abestirudi h2 {
     text-align: center;
-    border-top: solid white;
-    /* Marra zuri bat ipintzen dugu bi sekzioak diferenziatzeko */
-    margin-bottom: 4vh;
-    padding-top: 4vh;
+    padding: 10px;
 }
 
-#pelirudi {
+#gehienentzunda {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Cambia la dirección del flujo a columnas */
+    align-items: center; /* Centra horizontalmente los elementos */
+    text-align: center; /* Centra el texto */
 }
-#gehienikusita ul {
-    width: 70vw;
-    list-style: none;
+
+#gehienentzunda h3 {
+    display: none; /* Oculta el texto "Gehien Entzunda" para pantallas grandes */
+}
+
+#gehienentzunda ul {
     display: flex;
-    flex-direction: row;
-    /* row erabiltzen dugu bata bestearen alboan ipintzeko
-     * eta beraien artean espazioa edukitzeko */
-    justify-content: space-around;
-    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en una nueva línea si no hay suficiente espacio horizontal */
 }
 
-/* pelikulen argazkieei balio desberdinak ipini dizkiegu
- * horrela tamaina berdina edukiko dute */
-#alien, #lebowski, #dollar, #handia {
-    border: 2px solid white;
-}
-#alien {
-    width: 195px;
-}
-#lebowski {
-    width: 200px;
-}
-#dollar {
-    width: 208px;
-}
-#handia {
-    width: 209px;
+#gehienentzunda li {
+    flex: 1; /* Hace que cada elemento ocupe el mismo espacio dentro del contenedor */
+    margin: 0 5px; /* Agrega un pequeño margen entre las imágenes */
 }
 
-/* balio hauekin, weba bertikalki ondo ikus daiteke */
-@media screen and (max-width: 840px) {
-    #deskriptzioa {
-        width: fit-content;
-        width: 420px;
-    }
-    #deskriptzioa p {
-        font-size: 16px;
-    }
-    #gehienikusita ul {
-        flex-direction: column;
-    }
+#gehienentzunda img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita que las imágenes tengan espacio adicional debajo */
+}
 
-    #alien, #lebowski, #dollar, #handia {
-        width: 175px;
+/* Estilos para pantallas pequeñas (menos de 600px de ancho, por ejemplo) */
+@media screen and (max-width: 800px) {
+    #gehienentzunda h3 {
+        display: block; /* Muestra el texto "Gehien Entzunda" para pantallas pequeñas */
+    }
+    #gehienentzunda ul {
+        flex-direction: column; /* Cambia la dirección del flujo a columnas */
+        align-items: center; /* Centra horizontalmente los elementos */
     }
 }
+

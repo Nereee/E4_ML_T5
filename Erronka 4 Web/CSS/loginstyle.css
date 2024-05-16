@@ -8,7 +8,7 @@ body, h1, h2, p, ul, li {
 /* Formularioaren gorputzerako oinarrizko estiloa */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f8f8;
+    background-color: black;
 }
 
 /* Saio-hasierako formularioko edukiontzirako estiloa */
@@ -16,7 +16,7 @@ form {
     width: 60%; /* Doitu zabalera zure lehentasunen arabera */
     max-width: 400px; /* Gehieneko zabalera ezartzen du */
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
